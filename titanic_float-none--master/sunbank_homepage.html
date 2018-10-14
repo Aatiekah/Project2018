@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SunBank | Home</title>
+  <link rel="stylesheet" href="Styles.css">
+  <link rel="js" href="Javascript.js">
+</head>
+
+<body>
+
+  <div id = "HP_Nav">
+    <ul>
+      <li><a href = "sunbank_homepage.html">Home</a></li>
+      <li><a href = "sunbank_join.html">Join Us</a></li>
+      <li><a href = "sunbank_online.html">Online Banking</a></li>
+      <li><a href = "sunbank_help.html">Help Centre</a></li>
+      <li><a href = "sunbank_contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="Home_Div">
+    <img id="home_logo" src="Sunbank_logo.png" alt="Sunbank Logo">
+    
+    <Section id="Box" >
+      <div id = "ICON_Nav">
+        <ul id="ICON_ul">
+          <li><img id="icons1" src="bank-building.png"><p>You can bank on Us</p></li>
+          <li><img id="icons2" src="dollar-symbol.png"><p>Grow your wealth</p></li>
+          <li><img id="icons3" src="funds.png"><p>Check your funds</p></li>
+          <li><img id="icons4" src="credit-cards-payment.png"><p>Make a Payment</p></li>
+        </ul>
+      </div>
+      
+      <br></br>
+      
+      <div id="Box2"> 
+        <p>We're ready to listen -
+          Your goals and circumstances are unique - knowing them enables us to help you</p>
+        <p>We can be trusted -
+          The solutions we innovate for your convenience are supported by world-class security</p>
+        <p>We make life easy -
+            Manage your accounts and payments wherever you are, whenever you like, on any device</p>
+        <p>We put you in control -
+            Our mobile banking app gives you easy, anytime access to your cards and accounts</p>
+        <div id="images" >
+          <img class="mySlides" src="mech.jpeg" style="width:100%">
+          <img class="mySlides" src="light.png" style="width:100%">
+          <img class="mySlides" src="coins.jpeg" style="width:100%">
+        </div>
+        <script id="Pics1">
+          var myIndex = 0;
+          carousel();
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000);} // Change image every 2 seconds
+        </script>
+      </div>
+      
+      <br></br>
+      
+      <div class="row"> 
+      <div class="column">
+        <img src="mech.jpeg">
+        <img src="coins_notes.png" >
+        <img src="coins.jpeg" >
+        <img src="light.png" >
+        <img src="bino.jpeg" >
+      </div>
+      <div class="column">
+        <img src="light.png" >
+        <img src="puzzle.jpg" >
+        <img src="coins.jpeg" >
+        <img src="puzzle.jpg" >
+        <img src="mech.jpeg" >
+      </div>
+      </div>
+      
+      
+      </div>
+      
+    </Section><br></br>
+  
+  <br></br>
+
+<div id="footer">
+    <ul>
+      <li><a href = "#">Security center</a></li>
+      <li><a href = "#">Regulatory</a></li>
+      <li><a href = "#">Legal</a></li>
+      <li><a href = "#">Terms & Conditions</a></li>
+    </ul>
+    <ul>
+      Sunbank is a licensed financial services provider in terms of the Financial Advisory and Intermediary Services Act and a registered credit provider in terms of the National Credit Act, registration number NCR02153 
+    </ul>
+</div>
+
+</body>
+
+</html>

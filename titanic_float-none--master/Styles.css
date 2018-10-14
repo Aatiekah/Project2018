@@ -1,0 +1,955 @@
+/*------------------------ENTIRE DOCUMENT--------------------------*/
+html{
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #e6e6e6;
+  background-image:  url("background_test.jpg");
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+p{
+  font-weight: lighter;
+}
+/*------------------------LANDING PAGE--------------------------*/
+#Enter_Button{
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  width: 35.5%;
+  height: auto;
+  transform: translate(-50%,-50%);
+  background-color: grey;
+  color: white;
+  font-size: medium;
+  font-weight: inherit;
+  font-stretch: semi-expanded;
+  padding: 12px 28px;
+  font-style: normal;
+}
+
+/*------------------------MAIN NAVIGATION BAR--------------------------*/
+
+#HP_Nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 4px;
+  margin: 0;
+  background-color: grey;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 1%;
+  transition: background-color 0.85s ease;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: #86592d;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+  
+}
+
+#Main_Logo {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  width: 35.5%;
+  height: auto;
+  transform: translate(-50%,-50%);
+}
+
+#Landing_Logo {
+  width: 100%;
+  height: auto;
+}
+
+/*------------------------HOME PAGE--------------------------*/
+
+#Home_Div {
+  background-color: #f2f2f2;
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  padding: 1%;
+  text-align: center;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: inherit;
+  color: #333333;
+}
+
+#home_logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#Pics{
+  float: inherit;
+}
+
+#ICON_Nav{
+  float: center;
+  list-style: left;
+  background-color: grey;
+  color: white;
+  position: sticky;
+}
+
+
+
+#icons1{
+  height:80px;
+  width: 80px;
+}
+
+#icons2{
+  height:80px;
+  width: 80px;
+}
+
+#icons3{
+  height:80px;
+  width: 80px;
+}
+
+#icons4{
+  height:80px;
+  width: 80px;
+}
+
+ICON_ul {
+  text-align: center;
+  padding-bottom: 4px;
+  background-color: grey;
+  font-family: sans-serif;
+  list-style-image: url("funds.png");
+}
+
+ICON_li {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 10%;
+  transition: background-color 0.85s ease;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+ICON_li:hover {
+  background-color: #86592d;
+}
+
+/*------------------------CONTACT PAGE--------------------------*/
+
+#Contact_Div {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#Contact_h1 {
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Contact_1 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: 220px;
+  float: left;
+  text-align: center;
+  transition: 0.85s ease;
+  padding: 20px 20px 20px 20px;
+}
+
+#Contact_1:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  text-align: center;
+}
+
+#Contact_h2 {
+  font-family: arial;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+#Contact_2 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: 220px;
+  float: right;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+#Contact_2:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  text-align: center;
+}
+
+#Contact_4 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: 220px;
+  float: left;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-top: 2%;
+}
+
+#Contact_4:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  text-align: center;
+}
+
+#Contact_5 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: 220px;
+  float: right;
+  transition: 0.85s ease;
+  text-align: center;
+  margin-top: 2%;
+  padding: 20px 20px 20px 20px;
+}
+
+#Contact_5:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  text-align: center;
+}
+
+#Contact_h3 {
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #333333;
+  text-align: center;
+  padding: 15px;
+  text-align: center;
+}
+
+#Contact_3 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 100%;
+  height: 150px;
+  float: left;
+  margin-top: 2%;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+#Contact_3:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  text-align: center;
+}
+
+#icons_contact{
+  height: 80px;
+  width: 80px;
+}
+
+/*------------------------TRYING TO GET A MAP TO WORK ON THE PAGE BUT FAILED--------------------------*/
+
+#maps1 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 50%;
+  height: 300px;
+  float: right;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-top: 2%;
+}
+
+
+#maps2 {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 50%;
+  height: 300px;
+  float: right;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-top: 2%;
+}
+
+#googleMaps{
+  width:100%;
+  height:100%;
+}
+
+#a_contact {
+  text-decoration: none;
+  color: black;
+}
+
+#Smile {
+  float: left;
+  width: 120px;
+  margin-right: 2%;
+}
+
+/*------------------------HELP PAGE--------------------------*/
+
+#Help_Div {
+  background-color: #f2f2f2;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  text-align: center;
+  font-size: larger;
+}
+
+#Help_h1 {
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #333333;
+  padding-bottom: 15px;
+}
+
+#Help_form{
+  background-color: #e6e6e6;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 10px;
+  color: black;
+  padding-top: 20px;
+}
+
+#Button2{
+  float: center;
+  width: 35.5%;
+  height: auto;
+  background-color: grey;
+  color: white;
+  font-size: medium;
+  font-weight: inherit;
+  font-stretch: semi-expanded;
+  padding: 10px;
+}
+
+#Comment_Div {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  overflow: hidden;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Comment_img {
+  width: 38%;
+  display: block;
+  margin: auto;
+}
+
+/*------------------------JOIN US PAGE--------------------------*/
+
+#Join_Div {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 3%;
+  overflow: hidden;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Join_h1 {
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#Join_img {
+  width: 50%;
+  float: right;
+}
+
+#Join_Div2 {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 10px;
+  padding: 1%;
+  overflow: hidden;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Join_Div3 {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 10px;
+  padding: 1%;
+  overflow: hidden;
+  text-align: left;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    float: center;
+    font-size: large;
+}
+
+/*------------------------IMAGES ON THE HOME PAGE--------------------------*/
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#footer{
+  color: white;
+  width: 100%;
+      height: 100%; } 
+  @media screen and (min-width: 1200px) {
+    .footer__container {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  .footer__contacts-block {
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .footer__contacts-block {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
+        
+#Box{
+  border-color: grey;
+  background-color: grey;
+  text-align: left;
+  color: white;
+}
+
+#Box2{
+  text-align: left;
+  border-color: white;
+  font-family: sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+
+th:hover{
+  background-color: #86592d;
+  text-align: center;
+  border-radius: 5%;
+}
+
+tr{
+  text-align: center;
+  padding-right: 10px;
+  margin-left: 200px;
+}
+
+td{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+#icons{
+  width: inherit;
+  height: inherit;
+  text-align: center;
+}
+
+#section1{
+  text-align: left;
+  font-size: larger;
+}
+
+#section2{
+  text-align: left;
+}
+
+#Box{
+  border-color: white;
+  background-color: grey;
+  text-align: left;
+  color: white;
+  padding: 100px;
+}
+
+
+h2{
+	color: #222121;
+	margin: 0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+#table2{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#tr2{
+    border: 1px solid;
+    text-align: left;
+    padding-left: 20px;
+} 
+
+#th2{
+  padding: 50%;
+}
+
+/*------------------------ONLINE BANKING PAGE--------------------------*/
+
+#Online_Div{
+  background-color: #f2f2f2;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  text-align: center;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+#Contact_Div {
+  background-color: #e6e6e6;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#Online_1{
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: auto;
+  float: left;
+  text-align: center;
+  transition: 0.85s ease;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+}
+
+#Online_2{
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 49%;
+  height: 220px;
+  float: right;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  height: auto;
+  font-size: 20px;
+}
+
+#Online_3{
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 100%;
+  height: 150px;
+  float: left;
+  margin-top: 2%;
+  transition: 0.85s ease;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  height: auto;
+  font-size: 20px;
+}
+
+#shield{
+  width: 120px;
+  height: 120px;
+}
+
+#online_form{
+  text-align: left;
+}
+
+#online_button{
+  float: right;
+  font-size: 20px;
+  padding: 5px 5pc 5px 5px;
+  width: 30%;
+  height: 100%;
+  transform: translate(-50%,-50%);
+  background-color: grey;
+  color: white;
+  font-size: medium;
+  font-weight: inherit;
+  font-stretch: semi-expanded;
+  padding: 10px;
+}
+
+/*------------------------ACCOUNTS PAGE PAGE--------------------------*/
+
+#Account_Div{
+  background-color: #f5f5f5;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding: 1%;
+  text-align: center;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#Account_1{
+  background-color: grey;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 96%;
+  height: auto;
+  float: left;
+  text-align: center;
+  transition: 0.85s ease;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  margin: 2%;
+}
+
+#Account_Nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+#Acc_ul3{
+  list-style: none;
+  text-align: right;
+  padding-bottom: 4px;
+  margin: 0;
+  background-color: grey;
+  font-family: sans-serif;
+}
+
+#Acc_li3 {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2%;
+  transition: background-color 0.85s ease;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: #86592d;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+  
+}
+
+#Account_h1{
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Account_footer{
+  color: white;
+  width: 100%;
+      height: 100%; } 
+  @media screen and (min-width: 1200px) {
+    .footer__container {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  .footer__contacts-block {
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .footer__contacts-block {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
+        
+#Acc_ul{
+  list-style: none;
+  text-align: center;
+  padding-bottom: 4px;
+  margin: 0;
+  background-color: grey;
+  font-family: sans-serif;
+}
+
+#pic{
+  margin-top: 5%;
+  width: 400px;
+  height: 300px;
+  float: center;
+}
+
+#Account_Nav2{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+#Acc_ul2 {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 4px;
+  margin: 0;
+  background-color: light-grey;
+  font-family: sans-serif;
+}
+
+#Acc_li2 {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2%;
+  transition: background-color 0.85s ease;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#Acc_button{
+  margin-top: 3%;
+  width: 200px;
+  text-align: center;
+  float: center;
+  padding: 1%;
+  font-size: 20px;
+  height: 100%;
+  background-color: grey;
+  color: white;
+  font-size: medium;
+  font-weight: inherit;
+  font-stretch: semi-expanded;
+}
+
+#ACC_heading{
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: left;
+  padding-top: 5px;
+}
+
+#ACC_balance1{
+  padding-top: 3%;
+  background-color: grey;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  float:left;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#ACC_balance2{
+  padding-top: 3%;
+  background-color: grey;
+  width: 50%;
+  height: 100px;
+  float: right;
+  text-align: center;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/*------------------------TRANSFER PAGE--------------------------*/
+
+#Trans_1{
+  background-color: grey;
+  -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.4);
+  width: 96%;
+  height: auto;
+  float: left;
+  text-align: center;
+  transition: 0.85s ease;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  margin: 2%;
+}
+
+#Trans_button{
+  float: right;
+  font-size: 20px;
+  padding: 5px 5pc 5px 5px;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%,-50%);
+  background-color: grey;
+  color: white;
+  font-size: medium;
+  font-weight: inherit;
+  font-stretch: semi-expanded;
+  padding: 10px;
+}
+
+/*------------MOST HEADINGS/ID WERE USED AGAIN IN ORDER TO KEEP A THE SAME FORMAT OF THE WEBPAGES----------------*/

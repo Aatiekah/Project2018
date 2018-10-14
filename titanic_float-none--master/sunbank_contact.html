@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SunBank | Contact</title>
+  <link rel = "stylesheet" href = "Styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id = "HP_Nav">
+    <ul>
+      <li><a href = "sunbank_homepage.html">Home</a></li>
+      <li><a href = "sunbank_join.html">Join Us</a></li>
+      <li><a href = "sunbank_online.html">Online Banking</a></li>
+      <li><a href = "sunbank_help.html">Help Centre</a></li>
+      <li><a href = "sunbank_contact.html">Contact Us</a></li>
+    </ul>
+</div>
+
+<div id = "Contact_Div">
+  <h1 id = "Contact_h1">Contact Us</h1>
+
+  <div id = "Contact_1">
+    <img id="icons_contact" src="call.png">
+    <h2 id = "Contact_h2">Give us a call</h2>
+    <p>Contact a Sunbank consultant:<br>Mon-Sun between 8am-5pm<br>000 000 0000</p>
+  </div>
+
+  <div id = "Contact_2"><a href = "sunbank_help.html" id = "a_contact">
+    <img id="icons_contact" src="message.png">
+    <h2 id = "Contact_h2">Our community</h2>
+    <p>Click away to be redirected to our Help Centre, where you can find the Sunbank community</p></a>
+  </div>
+  
+  <div id = "Contact_4">
+    <img id="icons_contact" src="maps.png">
+    <h2 id = "Contact_h2">Find a branch</h2>
+    <p>Use maps to find a branch near you<br></p>
+  </div>
+
+  <div id = "Contact_5"><a href = "sunbank_help.html" id = "a_contact">
+    <img id="icons_contact" src="support.png">
+    <h2 id = "Contact_h2">Let Us Call You</h2>
+    <p>Click away to be redirected to our Help Centre, where you can find the Sunbank community</p></a>
+  </div>
+
+  <div id = "Contact_3"><a href = "sunbank_comment.html" id = "a_contact">
+    <img src = "smiley.png" id = "Smile" alt = "Smile">
+    <h2 id = "Contact_h2">Leave a comment?</h2>
+    <p>We are dedicated to keeping our customers satisfied. Let us know how we can improve your experience.</p></a>
+  </div>
+  
+ 
+  <div id="maps1"></div>
+
+    <script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+      };
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+      
+  <div id = "maps2"><a href = "sunbank_help.html" id = "a_contact">
+    <h2 id = "Contact_h2">SunBank Group Limited</h2><br>
+    <p>9th Floor SunBank Building</p>
+    <p>43 Andringa St, PO Box 8956 Stellenbosch Central, Stellenbosch, 7600</p>
+    <p>Telephone - +27 11 636 9111/2</p>
+    <p>Swift Code - SBZAZAJJ</p></a>
+  </div>
+  
+</div>
+
+<div id="footer">
+    <ul>
+      <li><a href = "#">Security center</a></li>
+      <li><a href = "#">Regulatory</a></li>
+      <li><a href = "#">Legal</a></li>
+      <li><a href = "#">Terms & Conditions</a></li>
+    </ul>
+    <ul>
+      Sunbank is a licensed financial services provider in terms of the Financial Advisory and Intermediary Services Act and a registered credit provider in terms of the National Credit Act, registration number NCR02153 
+    </ul>
+</div>
+
+</body>
+
+</html>

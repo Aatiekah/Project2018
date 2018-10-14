@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SunBank | Online Banking </title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+  <div id = "HP_Nav">
+    <ul>
+      <li><a href = "sunbank_homepage.html">Home</a></li>
+      <li><a href = "sunbank_join.html">Join Us</a></li>
+      <li><a href = "sunbank_online.html">Online Banking</a></li>
+      <li><a href = "sunbank_help.html">Help Centre</a></li>
+      <li><a href = "sunbank_contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+
+<div id = "Online_Div">
+  
+  <p id="Contact_h1"> Welcome to Online Banking </p>
+  <br> 
+  
+  <div id = "Online_1">
+    <img src="shield.png" id="shield">
+    <form id="online_form">
+    <br>
+      <legend>Want to Bank Online? Sign in here</legend>
+        <br>
+        Email: *<br><br><input type = "text" name = "fname"><br><br>
+        Password: *<br><br><input type = "text" name = "lname"><br><br>
+    <br>
+    </form>
+    <button id="online_button" >Sign in <a href="sunbank_manage.html"></a></button>
+    <script>
+    document.getElementById("online_button").onclick = function () {
+        location.href = "sunbank_manage.html";
+    };
+    </script> 
+  </div>
+
+  <div id = "Online_2">
+    <img src="shield.png" id="shield">
+    <form id="online_form">
+    <br>
+      <legend>Forgot your password? Reset it here</legend>
+        <br>
+        Email: *<br><br><input type = "text" name = "fname"><br><br>
+        Cellphone Number: *<br><br><input type = "text" name = "lname"><br><br>
+        <br>
+    </form>
+    <button id="online_button" >Reset</button>
+  </div>
+  
+  <div id = "Online_3">
+    Read more about what online banking can do for you
+  </div>
+  
+</div>
+
+
+
+<div id="footer">
+    <ul>
+      <li><a href = "#">Security center</a></li>
+      <li><a href = "#">Regulatory</a></li>
+      <li><a href = "#">Legal</a></li>
+      <li><a href = "#">Terms & Conditions</a></li>
+    </ul>
+    <ul>
+      Sunbank is a licensed financial services provider in terms of the Financial Advisory and Intermediary Services Act and a registered credit provider in terms of the National Credit Act, registration number NCR02153 
+    </ul>
+</div>
+
+</body>
+
+</html>
